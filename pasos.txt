@@ -1,0 +1,30 @@
+laravel new spatie
+cd spatie
+configurar env
+composer require spatie/laravel-permission
+
+en appserviceprovider
+	use Illuminate\Support\Facades\Schema;
+	Schema::defaultStringLength(191);
+
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="config" 
+php artisan migrate
+php artisan make:auth
+
+
+modificar user model
+	use Illuminate\Foundation\Auth\User as Authenticatable;
+	use Spatie\Permission\Traits\HasRoles;
+
+	class User extends Authenticatable
+	{
+	    use HasRoles;
+
+	    // ...
+	}
+
+php artisan make:controller UserController --resource
+php artisan make:controller PermissionsController --resource
+php artisan make:controller RoleController --resource
+
