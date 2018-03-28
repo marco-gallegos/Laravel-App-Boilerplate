@@ -3,9 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Auth;
 
-class PermissionsController extends Controller
-{
+//Importing laravel-permission models
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
+
+use Session;
+
+class PermissionController extends Controller{
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +19,8 @@ class PermissionsController extends Controller
      */
     public function index()
     {
-        //
+        $permissions = Permission::all(); //Get all permissions
+        return view('permission.index', ["permissions" => $permissions]);
     }
 
     /**
@@ -24,6 +31,7 @@ class PermissionsController extends Controller
     public function create()
     {
         //
+        return view('permission.create');
     }
 
     /**
@@ -35,6 +43,12 @@ class PermissionsController extends Controller
     public function store(Request $request)
     {
         //
+        $permission = new Permission;
+        $permission->name = $request['name'];
+        $permission->save();
+        return redirect()->route('permission.index')
+            ->with('flash_message',
+             'Permission'. $permission->name.' added!');
     }
 
     /**
@@ -57,6 +71,8 @@ class PermissionsController extends Controller
     public function edit($id)
     {
         //
+        $permission = Permission::findOrFail($id);
+        return view('permission.edit', compact('permission'));
     }
 
     /**

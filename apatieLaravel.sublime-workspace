@@ -1,0 +1,1008 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"row",
+				"row \tBootstrap 4 Class"
+			],
+			[
+				"btn-",
+				"btn-primary \tBootstrap 3 Class"
+			],
+			[
+				"con",
+				"continue\tblade-continue"
+			],
+			[
+				"table",
+				"table-condensed \tBootstrap 3 Class"
+			],
+			[
+				"Route",
+				"Route::put\tBasic Put Route."
+			],
+			[
+				"Rou",
+				"Route::delete\tBasic Delete Route."
+			],
+			[
+				"fore",
+				"foreach\tblade-foreach"
+			],
+			[
+				"dd",
+				"dd($request"
+			],
+			[
+				"usu",
+				"$usuario〔variable〕"
+			],
+			[
+				"v",
+				"view()\tmixed"
+			],
+			[
+				"from-con",
+				"form-control \tBootstrap 3 Class"
+			],
+			[
+				"btn",
+				"btn-success \tBootstrap 3 Class"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"glyphicon-pl",
+				"glyphicon-plus \tBootstrap 3 Class"
+			],
+			[
+				"gly",
+				"glyphicon-adjust \tBootstrap 3 Class"
+			],
+			[
+				"gl",
+				"glyphicon-cog \tBootstrap 3 Class"
+			],
+			[
+				"for",
+				"foreach\tblade-foreach"
+			],
+			[
+				"inpu",
+				"inputt\tinput - text"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bod",
+				"body"
+			],
+			[
+				"va",
+				"$val1〔variable〕"
+			],
+			[
+				"val",
+				"$val2〔variable〕"
+			],
+			[
+				"just",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"car",
+				"card \tBootstrap 4 Class"
+			],
+			[
+				"link",
+				"page-link \tBootstrap 4 Class"
+			],
+			[
+				"sel",
+				"selected\tAttr"
+			],
+			[
+				"form",
+				"form-control \tBootstrap 4 Class"
+			],
+			[
+				"lab",
+				"label\t<label>"
+			],
+			[
+				"ec",
+				"echoh\t<?php echo htmlentities(…) ?>"
+			],
+			[
+				"d",
+				"dist/"
+			],
+			[
+				"cur",
+				"curl_error〔function〕"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"curl_err",
+				"curl_error"
+			],
+			[
+				"res",
+				"$result〔variable〕"
+			],
+			[
+				"prin",
+				"print_r〔function〕"
+			],
+			[
+				"resul",
+				"$resultadoServicio〔variable〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"php",
+				"db.php"
+			],
+			[
+				"req",
+				"require_once〔keyword〕"
+			],
+			[
+				"str",
+				"stringcsv"
+			],
+			[
+				"articu",
+				"articulo〔variable〕"
+			],
+			[
+				"art",
+				"articulo〔variable〕"
+			],
+			[
+				"num",
+				"num_level2〔variable〕"
+			],
+			[
+				"arti",
+				"articuloC〔variable〕"
+			],
+			[
+				"nume",
+				"num_leve1〔variable〕"
+			],
+			[
+				"ima",
+				"imegenFecha〔variable〕"
+			],
+			[
+				"id",
+				"idMarca〔variable〕"
+			],
+			[
+				"no",
+				"no_parte〔variable〕"
+			],
+			[
+				"descr",
+				"descripcion_corta"
+			],
+			[
+				"col-xs-off",
+				"col-xs-offset-4 \tBootstrap 3 Class"
+			],
+			[
+				"to",
+				"toRoute〔function〕"
+			],
+			[
+				"url",
+				"Url"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"img",
+				"img-responsive \tBootstrap 3 Class"
+			],
+			[
+				"strto",
+				"strtotime〔function〕"
+			],
+			[
+				"fecha",
+				"$fecha_inicio〔variable〕"
+			],
+			[
+				"fech_",
+				"$fech_temp〔variable〕"
+			],
+			[
+				"asiste",
+				"$asistenciaGeneral〔variable〕"
+			],
+			[
+				"fi",
+				"findaba\tYii Model findAllByAttributes"
+			],
+			[
+				"json",
+				"json_encode〔function〕"
+			],
+			[
+				"bg-",
+				"bg-danger \tBootstrap 3 Class"
+			],
+			[
+				"find",
+				"findByAttributes"
+			],
+			[
+				"repe",
+				"$repetidos〔variable〕"
+			],
+			[
+				"fec",
+				"fecha_captura"
+			],
+			[
+				"event",
+				"$eventovinculado〔variable〕"
+			],
+			[
+				"even",
+				"$eventosCongreso〔variable〕"
+			],
+			[
+				"Even",
+				"Evento〔class〕"
+			],
+			[
+				"id_",
+				"id_congreso"
+			],
+			[
+				"strt",
+				"strtotime〔function〕"
+			],
+			[
+				"Asiste",
+				"AsistenciaCongreso"
+			],
+			[
+				"pu",
+				"pull-right \tBootstrap 3 Class"
+			],
+			[
+				"registr",
+				"registros"
+			],
+			[
+				"table-",
+				"table-hover \tBootstrap 3 Class"
+			],
+			[
+				"Lista",
+				"ListaAsistenciaFecha〔class〕"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"asis",
+				"$asistentesPorFecha〔variable〕"
+			],
+			[
+				"rend",
+				"renderPartial"
+			],
+			[
+				"eve",
+				"eventosCongreso"
+			],
+			[
+				"findab",
+				"findaba\tYii Model findAllByAttributes"
+			],
+			[
+				"coun",
+				"count〔function〕"
+			],
+			[
+				"fge",
+				"fgetcsv〔function〕"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"L",
+				"ListaAsistencia::model"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Http/Controllers/UserController.php",
+			"settings":
+			{
+				"buffer_size": 2004,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/user/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 260.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 657.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/srv/http/laravel/spatie-laravel",
+		"/srv/http/laravel/spatie-laravel/app",
+		"/srv/http/laravel/spatie-laravel/app/Http",
+		"/srv/http/laravel/spatie-laravel/app/Http/Controllers",
+		"/srv/http/laravel/spatie-laravel/resources",
+		"/srv/http/laravel/spatie-laravel/resources/views",
+		"/srv/http/laravel/spatie-laravel/resources/views/user"
+	],
+	"file_history":
+	[
+		"/srv/http/laravel/spatie-laravel/resources/views/user/index.blade.php",
+		"/srv/http/laravel/spatie-laravel/app/Http/Controllers/UserController.php",
+		"/srv/http/laravel/spatie-laravel/resources/views/user/create.blade.php",
+		"/home/cebox/cucei7/SSBD/sem6/trigger.sql",
+		"/home/cebox/Escritorio/test.sql",
+		"/srv/http/ssbd/captura_pantalla/routes/web.php",
+		"/srv/http/ssbd/captura_pantalla/app/Http/Controllers/ClienteController.php",
+		"/srv/http/ssbd/captura_pantalla/resources/views/cliente/update.blade.php",
+		"/srv/http/ssbd/captura_pantalla/app/Cliente.php",
+		"/srv/http/ssbd/captura_pantalla/resources/views/cliente/index.blade.php",
+		"/srv/http/ssbd/captura_pantalla/resources/views/cliente/form.blade.php",
+		"/srv/http/ssbd/captura_pantalla/resources/views/layouts/main.blade.php",
+		"/srv/http/ssbd/helpdeskExpress/resources/views/usuario/update.blade.php",
+		"/srv/http/ssbd/helpdeskExpress/resources/views/usuario/index.blade.php",
+		"/srv/http/ssbd/captura_pantalla/.env.example",
+		"/srv/http/ssbd/helpdeskExpress/app/Http/Controllers/UsuarioController.php",
+		"/srv/http/ssbd/helpdeskExpress/resources/views/usuario/create.blade.php",
+		"/srv/http/ssbd/helpdeskExpress/resources/views/layouts/main.blade.php",
+		"/srv/http/ssbd/helpdeskExpress/config/app.php",
+		"/srv/http/ssbd/helpdeskExpress/routes/web.php",
+		"/srv/http/laravel/ErpExpress/vendor/jeroennoten/laravel-adminlte/config/adminlte.php",
+		"/srv/http/laravel/ErpExpress/routes/web.php",
+		"/srv/http/laravel/ErpExpress/resources/views/main.blade.php",
+		"/srv/http/ssbd/notasLaravel.md",
+		"/srv/http/ssbd/captura_pantalla/app/cliente.php",
+		"/srv/http/ssbd/captura_pantalla/.env",
+		"/home/cebox/cucei7/SSBD/LibretaTrabajos/index.html",
+		"/home/cebox/Descargas/Telegram Desktop/DiagramaSema4equipo.dia",
+		"/home/cebox/cucei7/PPI/sem3 css/login.html",
+		"/home/cebox/cucei7/SSBD/sem2/EREQUIPO.dia",
+		"/home/cebox/cucei7/SSBD/sem2/test.sql",
+		"/home/cebox/Escritorio/diagramaSemana3.dia",
+		"/srv/http/laravel/notasLaravel.md",
+		"/srv/http/PPI/tarea1/index.php",
+		"/srv/http/globaloffice/apitest/ctindex.php",
+		"/srv/http/globaloffice/apitest/index.php",
+		"/srv/http/globaloffice/apitest/test.sql",
+		"/srv/http/globaloffice/apitest/indexold.php",
+		"/home/cebox/globaloffice/apitest.globaloffice.com.mx/db.php",
+		"/home/cebox/globaloffice/script/out.csv",
+		"/home/cebox/Escritorio/productos.xml",
+		"/home/cebox/Escritorio/productos (copia).xml",
+		"/srv/http/yii2base/controllers/SiteController.php",
+		"/srv/http/yii2base/views/layouts/login.php",
+		"/srv/http/yii2base/views/site/login.php",
+		"/srv/http/yii2base/views/site/_formulario.php",
+		"/srv/http/yii2base/views/layouts/main.php",
+		"/srv/http/yii2base/views/site/saluda.php",
+		"/srv/http/public_html/smart/protected/controllers/ListaAsistenciaController.php",
+		"/home/cebox/gpoascen/respaldo bd/listaAsistenciaFecha-Fechas cargadas mias.sql",
+		"/home/cebox/gpoascen/respaldo bd/listaAsistenciaFecha-F.sql",
+		"/srv/http/public_html/smart/protected/models/FechaEvento.php",
+		"/srv/http/public_html/smart/protected/views/reporteador/asistencia.php",
+		"/srv/http/public_html/smart/protected/controllers/ReporteadorController.php",
+		"/srv/http/public_html/smart/protected/views/listaAsistencia/createcsv.php",
+		"/srv/http/public_html/smart/protected/models/ListaAsistenciaCongreso.php",
+		"/srv/http/test/procesar.php",
+		"/run/media/cebox/BigStorage/gpoascen/respaldo bd/listaAsistenciaFecha-Fechas cargadas mias.sql",
+		"/srv/http/public_html/smart/protected/models/ListaAsistenciaFecha.php",
+		"/srv/http/public_html/smart/protected/models/AsistenciaPorFecha.php",
+		"/srv/http/public_html/smart/protected/models/Evento.php",
+		"/srv/http/public_html/smart/protected/models/AsistenciaCongreso.php",
+		"/srv/http/public_html/smart/protected/controllers/VcongresoController.php",
+		"/srv/http/public_html/smart/protected/views/congreso/listarregistradosfecha.php",
+		"/srv/http/public_html/smart/protected/views/reporteador/congreso.php",
+		"/srv/http/public_html/smart/protected/views/reporteador/Rvendedor.php",
+		"/srv/http/public_html/smart/protected/views/reporteador/indexRVendedor.php",
+		"/srv/http/public_html/smart/themes/admin-lte/views/layouts/column2.php",
+		"/home/cebox/.config/mate/panel2.d/default/launchers/opera-1.desktop",
+		"/home/cebox/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
+		"/srv/http/public_html/smart/protected/views/listaAsistencia/indexCongreso.php",
+		"/home/cebox/gpoascen/listaAsistenciaFecha-miCapturaDeAsistencias.sql",
+		"/home/cebox/gpoascen/respaldos smart/post-vcongreso/listaAsistenciaFecha-asistenciatalleres.sql",
+		"/home/cebox/gpoascen/asistentes_evento_congreso_fecha.sql",
+		"/home/cebox/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/srv/http/public_html/smart/protected/views/reporteador/indexasistencia.php",
+		"/srv/http/public_html/smart/protected/views/reporteador/index.php",
+		"/srv/http/public_html/smart/protected/views/congreso/listeventosasistencia.php",
+		"/srv/http/public_html/smart/protected/views/congreso/listeventos.php",
+		"/srv/http/public_html/smart/readme.md",
+		"/home/cebox/.config/sublime-text-3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/srv/http/public_html/smart/protected/views/listaAsistencia/_formcsv.php",
+		"/srv/http/test/index.html",
+		"/srv/http/public_html/smart/protected/views/listaAsistencia/create.php",
+		"/home/cebox/test.html",
+		"/home/cebox/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/Controllers/UserController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								923,
+								923
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										923,
+										924
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										907,
+										908
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/user/create.blade.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "apatieLaravel.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 293.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -13,17 +13,18 @@ use Spatie\Permission\Models\Permission;
 
 use Session;
 
-class UserController extends Controller
-{
+class UserController extends Controller{
+    public function __construct() {
+        //$this->middleware(['auth', 'isAdmin']); //isAdmin middleware lets only users with a //specific permission permission to access these resources
+    }
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        $permissions = Permission::all(); //Get all permissions
-        return view('user.index',["permissions" => $permissions ]);
+    public function index(){
+        $users = User::all();
+        return view('user.index',["users" => $users ]);
     }
 
     /**
@@ -31,10 +32,9 @@ class UserController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
-        return view('user.create');
+    public function create(){
+        $roles = Role::get();
+        return view('user.create',["roles"=>$roles]);
     }
 
     /**
@@ -43,8 +43,7 @@ class UserController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
+    public function store(Request $request){
         //
     }
 
@@ -54,8 +53,7 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
+    public function show($id){
         //
     }
 
@@ -65,8 +63,7 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
+    public function edit($id){
         //
     }
 
@@ -77,8 +74,7 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
+    public function update(Request $request, $id){
         //
     }
 
@@ -88,8 +84,7 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
-    {
+    public function destroy($id){
         //
     }
 }

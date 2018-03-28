@@ -19,7 +19,11 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/user', "UserController@index");
-Route::get('/user/create', "UserController@create");
+Route::resource('user', 'UserController');
 
-Route::get('/permission', "PermissionController@index");
+Route::resource('permission', 'PermissionController');
+
+Route::resource('role', 'RoleController');
+//vincular permisos a los roles
+Route::get('role/permissions/{id}', 'RoleController@permissions');
+Route::post('role/link/{id}', "RoleController@link");
