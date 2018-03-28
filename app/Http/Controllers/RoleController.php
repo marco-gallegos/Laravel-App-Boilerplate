@@ -111,3 +111,4 @@ class RoleController extends Controller
              'Updated '. $rol->name.' permissions!');
     }
 }
+ 
