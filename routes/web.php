@@ -20,6 +20,10 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('user', 'UserController');
+Route::get('user/role/{id}', 'UserController@role');
+Route::post('user/linkrole/{id}', "UserController@linkrole");
+Route::get('user/permission/{id}', 'UserController@permission');
+Route::post('user/linkpermission/{id}', "UserController@linkpermission");
 
 Route::resource('permission', 'PermissionController');
 

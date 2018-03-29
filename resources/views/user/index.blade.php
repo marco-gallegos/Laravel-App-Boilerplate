@@ -22,15 +22,20 @@
 								<td>{{ $user->name }}</td>
 			                    <td>{{ $user->email }}</td>
 			                    <td>{{ $user->created_at->format('F d, Y h:ia') }}</td>
-			                    <td><a href="{{ url('user') }}" class="btn btn-sm btn-warning">Modificar</a></td>
-			                    <td><a href="{{ url('user') }}" class="btn btn-sm btn-warning">Modificar</a></td>
+			                    <td><a href="{{ url('user/role/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
+			                    <td><a href="{{ url('user/permission/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
 							</tr>
 						@endforeach
 					</tbody>
 				</table>
 			</div>
 
-			<div class="col-1">
+			<div class="col-2">
+				<div class="col-12">
+					@can('admin role')
+						<a href="{{ url('role') }}" class="btn btn-sm btn-primary">Admin Roles</a><br>
+					@endcan
+				</div>
 				<div class="btn-group btn-group-vertical">
 					<a href="{{ url('register') }}" class="btn btn-sm btn-primary">Crear un nuevo Usuario</a><br>
 					<a href="{{ url('role/create') }}" class="btn btn-sm btn-primary">Crear un nuevo Rol</a><br>			

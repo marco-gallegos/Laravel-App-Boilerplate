@@ -6,7 +6,7 @@
 			<form action="{{ url('role') }}" method="POST" accept-charset="utf-8" class="form">
 				{{ csrf_field() }}
 				<div class="form-group">
-					<label for="name" class="form-control-label">Nommbre</label>
+					<label for="name" class="form-control-label">Nombre</label>
 					<input name="name" type="text" class="form-control">
 				</div>
 				<div class="form-group">

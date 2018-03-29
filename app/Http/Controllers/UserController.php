@@ -87,4 +87,38 @@ class UserController extends Controller{
     public function destroy($id){
         //
     }
+
+    public function permission($id){
+        $user = User::findOrFail($id);
+        //$permissions = $user->getAllPermissions();
+        $permissions = Permission::all();
+        return view('user.permission', compact("user", "permissions"));
+    }
+
+    public function linkpermission(Request $request, $id){
+        $user = User::findOrFail($id);
+        if ($request["permissions"] == null) {
+            $user->syncPermissions([]);
+        }else{
+            $user->syncPermissions($request["permissions"]);
+        }
+        return redirect()->route("user.index");
+    }
+
+    public function role($id){
+        $user = User::findOrFail($id);
+        //$roles = $user->Roles()->get();
+        $roles = Role::all();
+        return view('user.role', compact("user", "roles"));
+    }
+
+    public function linkrole(Request $request, $id){
+        $user = User::findOrFail($id);
+        if ($request["roles"] == null) {
+            $user->syncRoles([]);
+        }else{
+            $user->syncRoles($request["roles"]);
+        }
+        return redirect()->route("user.index");
+    }
 }

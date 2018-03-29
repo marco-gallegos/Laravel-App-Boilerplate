@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-12">
             <div class="card">
                 <div class="card-header">Dashboard</div>
 
@@ -17,6 +17,11 @@
                     You are logged in!
                 </div>
             </div>
+        </div>
+        <div class="col-12">
+            @can('admin user')
+                <a href="{{ url('user') }}" class="btn btn-info col-12">Usuarios</a>
+            @endcan
         </div>
     </div>
 </div>

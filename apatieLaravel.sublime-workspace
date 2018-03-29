@@ -4,24 +4,84 @@
 		"selected_items":
 		[
 			[
+				"r",
+				"route〔function〕"
+			],
+			[
+				"table",
+				"table-hover \tBootstrap 4 Class"
+			],
+			[
+				"inpu",
+				"inputc\tinput - checkbox"
+			],
+			[
+				"permiss",
+				"permissions"
+			],
+			[
+				"per",
+				"permissions"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"Route",
+				"Route::post\tBasic Post Route."
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"btn-",
+				"btn-sm \tBootstrap 4 Class"
+			],
+			[
+				"table-",
+				"table-responsive \tBootstrap 4 Class"
+			],
+			[
+				"form-con",
+				"form-control \tBootstrap 4 Class"
+			],
+			[
+				"label",
+				"form-control-label \tBootstrap 4 Class"
+			],
+			[
+				"lab",
+				"label\t<label>"
+			],
+			[
+				"lay",
+				"layouts/app.blade.php \tBlade Autocomplete"
+			],
+			[
+				"btn-gr",
+				"btn-group-sm \tBootstrap 4 Class"
+			],
+			[
+				"form-la",
+				"form-control-label \tBootstrap 4 Class"
+			],
+			[
+				"btn-group",
+				"bs3-input-group\tbs3-input-group"
+			],
+			[
+				"btn",
+				"btn-warning \tBootstrap 3 Class"
+			],
+			[
 				"row",
 				"row \tBootstrap 4 Class"
 			],
 			[
-				"btn-",
-				"btn-primary \tBootstrap 3 Class"
-			],
-			[
 				"con",
 				"continue\tblade-continue"
-			],
-			[
-				"table",
-				"table-condensed \tBootstrap 3 Class"
-			],
-			[
-				"Route",
-				"Route::put\tBasic Put Route."
 			],
 			[
 				"Rou",
@@ -48,10 +108,6 @@
 				"form-control \tBootstrap 3 Class"
 			],
 			[
-				"btn",
-				"btn-success \tBootstrap 3 Class"
-			],
-			[
 				"a",
 				"a\t<a>"
 			],
@@ -66,14 +122,6 @@
 			[
 				"gl",
 				"glyphicon-cog \tBootstrap 3 Class"
-			],
-			[
-				"for",
-				"foreach\tblade-foreach"
-			],
-			[
-				"inpu",
-				"inputt\tinput - text"
 			],
 			[
 				"ba",
@@ -110,10 +158,6 @@
 			[
 				"form",
 				"form-control \tBootstrap 4 Class"
-			],
-			[
-				"lab",
-				"label\t<label>"
 			],
 			[
 				"ec",
@@ -296,10 +340,6 @@
 				"registros"
 			],
 			[
-				"table-",
-				"table-hover \tBootstrap 3 Class"
-			],
-			[
 				"Lista",
 				"ListaAsistenciaFecha〔class〕"
 			],
@@ -343,23 +383,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/Http/Controllers/UserController.php",
-			"settings":
-			{
-				"buffer_size": 2004,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/user/create.blade.php",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -427,9 +450,21 @@
 	],
 	"file_history":
 	[
-		"/srv/http/laravel/spatie-laravel/resources/views/user/index.blade.php",
+		"/srv/http/laravel/spatie-laravel/routes/web.php",
 		"/srv/http/laravel/spatie-laravel/app/Http/Controllers/UserController.php",
+		"/srv/http/laravel/spatie-laravel/app/Http/Controllers/RoleController.php",
+		"/srv/http/laravel/spatie-laravel/resources/views/user/role.blade.php",
+		"/srv/http/laravel/spatie-laravel/resources/views/user/permission.blade.php",
+		"/srv/http/laravel/spatie-laravel/resources/views/user/index.blade.php",
 		"/srv/http/laravel/spatie-laravel/resources/views/user/create.blade.php",
+		"/srv/http/laravel/spatie-laravel/app/Http/Controllers/PermissionController.php",
+		"/srv/http/laravel/spatie-laravel/resources/views/role/permissions.blade.php",
+		"/srv/http/laravel/spatie-laravel/resources/views/role/index.blade.php",
+		"/srv/http/laravel/spatie-laravel/resources/views/role/create.blade.php",
+		"/srv/http/laravel/spatie-laravel/resources/views/permission/index.blade.php",
+		"/srv/http/laravel/spatie-laravel/resources/views/permission/create.blade.php",
+		"/srv/http/laravel/spatie-laravel/artisan",
+		"/srv/http/laravel/spatie-laravel/resources/views/layouts/app.blade.php",
 		"/home/cebox/cucei7/SSBD/sem6/trigger.sql",
 		"/home/cebox/Escritorio/test.sql",
 		"/srv/http/ssbd/captura_pantalla/routes/web.php",
@@ -547,379 +582,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/Http/Controllers/UserController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2004,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								923,
-								923
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										923,
-										924
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/square_bracket.png",
-										"region.bluish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										907,
-										908
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 240.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resources/views/user/create.blade.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
