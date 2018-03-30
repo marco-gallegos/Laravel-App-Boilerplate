@@ -1,28 +1,28 @@
-@extends('layouts.app')
+@extends('layouts.adminlte')
 
 @section('content')
-<div class="container">
     <div class="row justify-content-center">
-        <div class="col-12">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
+        <div class="col-xs-12">
+            <div class="box">
+              <div class="box-header with-border">
+                <h3 class="box-title">Dashboard</h3>
+                <div class="box-tools pull-right">
+                  <!-- Buttons, labels, and many other things can be placed here! -->
+                  <!-- Here is a label for example -->
+                  <span class="label label-primary">Label</span>
                 </div>
+                <!-- /.box-tools -->
+              </div>
+              <!-- /.box-header -->
+              <div class="box-body">
+                
+              </div>
+              <!-- /.box-body -->
+              <div class="box-footer">
+                The footer of the box
+              </div>
+              <!-- box-footer -->
             </div>
         </div>
-        <div class="col-12">
-            @can('admin user')
-                <a href="{{ url('user') }}" class="btn btn-info col-12">Usuarios</a>
-            @endcan
-        </div>
     </div>
-</div>
 @endsection
