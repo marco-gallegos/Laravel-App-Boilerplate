@@ -48,7 +48,7 @@ class PermissionController extends Controller{
         $permission->save();
         return redirect()->route('permission.index')
             ->with('flash_message',
-             'Permission'. $permission->name.' added!');
+            'Permission'. $permission->name.' added!');
     }
 
     /**

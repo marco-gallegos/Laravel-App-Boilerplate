@@ -1,8 +1,8 @@
-@extends('layouts.adminlte')
+@extends('layouts.app')
 
 @section('content')
     <div class="row justify-content-center">
-        <div class="col-xs-12">
+        <div class="col-12">
             <div class="box">
               <div class="box-header with-border">
                 <h3 class="box-title">Dashboard</h3>

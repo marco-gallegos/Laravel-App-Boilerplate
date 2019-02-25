@@ -20,7 +20,7 @@
                     @foreach ($permissions as $permission)
                     <tr>
                         <td>{{ $permission->name }}</td> 
-                        <td><a href="" class="btn btn-warning">Actualizar</a></td>
+                    <td><a href='{{ url("permission/{$permission->id}/edit") }}' class="btn btn-warning">Actualizar</a></td>
                         <td><a href="" class="btn btn-warning">Eliminar</a></td>
                     </tr>
                     @endforeach
