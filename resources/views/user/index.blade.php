@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-10">
-				<table class="table table-responsive table-condensed table-striped">
+				<table class="table table-condensed table-striped">
 					<caption>Permisos</caption>
 					<thead>
 						<tr>
