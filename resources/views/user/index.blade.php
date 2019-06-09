@@ -9,10 +9,10 @@
 					<thead>
 						<tr>
 							<th>Name</th>
-			                <th>Email</th>
-			                <th>Date/Time Added</th>
-			                <th>User Roles</th>
-			                <th>User Permissions</th>
+							<th>Email</th>
+							<th>Date/Time Added</th>
+							<th>User Roles</th>
+							<th>User Permissions</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -20,10 +20,10 @@
 						{{-- dd($user->getAllPermissions()) --}}
 							<tr>
 								<td>{{ $user->name }}</td>
-			                    <td>{{ $user->email }}</td>
-			                    <td>{{ $user->created_at->format('F d, Y h:ia') }}</td>
-			                    <td><a href="{{ url('user/role/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
-			                    <td><a href="{{ url('user/permission/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
+								<td>{{ $user->email }}</td>
+								<td>{{ $user->created_at->format('F d, Y h:ia') }}</td>
+								<td><a href="{{ url('user/role/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
+								<td><a href="{{ url('user/permission/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
 							</tr>
 						@endforeach
 					</tbody>

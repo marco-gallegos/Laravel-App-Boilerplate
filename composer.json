@@ -1,7 +1,7 @@
 {
     "name": "marco-gallegos/laravel-permision-boilerplate",
     "description": "Boilerplate Para tener gestion de proyectos en cualquier app con laravel.",
-    "keywords": ["framework", "laravel"],
+    "keywords": ["framework", "laravel", "boilerplate", "template", "starter"],
     "license": "MIT",
     "type": "project",
     "require": {
