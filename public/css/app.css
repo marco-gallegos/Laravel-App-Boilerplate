@@ -11646,16 +11646,16 @@ a.text-dark:focus {
   }
 }
 
-@media screen and (max-width: 576px) {
-  table-mini {
+@media screen and (max-width: 768px) {
+  .table-mini {
     border: 0;
   }
 
-  table-mini caption {
+  .table-mini caption {
     font-size: 1.3em;
   }
 
-  table-mini thead {
+  .table-mini thead {
     border: none;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -11666,20 +11666,20 @@ a.text-dark:focus {
     width: 1px;
   }
 
-  table-mini tr {
+  .table-mini tr {
     border-bottom: 3px solid #ddd;
     display: block;
     margin-bottom: .625em;
   }
 
-  table-mini td {
+  .table-mini td {
     border-bottom: 1px solid #ddd;
     display: block;
     font-size: .8em;
     text-align: right;
   }
 
-  table-mini td::before {
+  .table-mini td::before {
     /*
 	* aria-label has no advantage, it won't be read inside a table
 	content: attr(aria-label);
@@ -11690,7 +11690,7 @@ a.text-dark:focus {
     text-transform: uppercase;
   }
 
-  table-mini td:last-child {
+  .table-mini td:last-child {
     border-bottom: 0;
   }
 }
