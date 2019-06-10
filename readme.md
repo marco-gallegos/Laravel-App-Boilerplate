@@ -11,6 +11,10 @@ Boilerplate para iniciar una aplicacion monolitica con algunas librerias / snipp
 - [ ] CRUD Permisos
 - [ ] CRUD Roles
 
+## instalacion
+
+* php artisan migrate --seed
+
 ## Features
 
 ### Permissions
