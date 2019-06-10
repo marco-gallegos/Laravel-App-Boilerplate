@@ -33,7 +33,7 @@
 								<td data-label="roles" ><a href="{{ url('user/role/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
 								<td data-label="permissions" ><a href="{{ url('user/permission/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
 								<td data-label="Acciones" >
-									<a href='{{ url("user/{$user->id}") }}' class="btn btn-primary" >
+									<a href='{{ url("user/{$user->id}/edit") }}' class="btn btn-primary" >
 										<i class="fa fa-edit"></i>
 									</a>
 								</td>

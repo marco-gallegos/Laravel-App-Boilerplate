@@ -54,9 +54,8 @@ class UserController extends Controller{
      * @return \Illuminate\Http\Response
      */
     public function show($id){
-        //
     }
-
+    
     /**
      * Show the form for editing the specified resource.
      *
@@ -64,7 +63,8 @@ class UserController extends Controller{
      * @return \Illuminate\Http\Response
      */
     public function edit($id){
-        //
+        $user = User::find($id);
+        return view('user.show', compact(["user"]));
     }
 
     /**
@@ -75,7 +75,7 @@ class UserController extends Controller{
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id){
-        //
+        echo "edit";
     }
 
     /**
