@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+	@php
+		use Carbon\Carbon;
+		Carbon::setLocale("es");
+	@endphp
 	<div class="container">
 		<div class="row">
 			<div class="col-10">
@@ -13,17 +17,26 @@
 							<th>Date/Time Added</th>
 							<th>User Roles</th>
 							<th>User Permissions</th>
+							<th>Acciones</th>
 						</tr>
 					</thead>
 					<tbody>
 						@foreach ($users as $user)
-						{{-- dd($user->getAllPermissions()) --}}
+							@php
+								$fecha = new Carbon($user->created_at);
+								$fecha = $fecha->isoFormat("LLLL");
+							@endphp
 							<tr>
-								<td>{{ $user->name }}</td>
-								<td>{{ $user->email }}</td>
-								<td>{{ $user->created_at->format('F d, Y h:ia') }}</td>
-								<td><a href="{{ url('user/role/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
-								<td><a href="{{ url('user/permission/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
+								<td data-label="name" >{{ $user->name }}</td>
+								<td data-label="email" >{{ $user->email }}</td>
+								<td data-label="created" >{{ $fecha }}</td>
+								<td data-label="roles" ><a href="{{ url('user/role/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
+								<td data-label="permissions" ><a href="{{ url('user/permission/'.$user->id) }}" class="btn btn-sm btn-warning">Modificar</a></td>
+								<td data-label="Acciones" >
+									<a href='{{ url("user/{$user->id}") }}' class="btn btn-primary" >
+										<i class="fa fa-edit"></i>
+									</a>
+								</td>
 							</tr>
 						@endforeach
 					</tbody>
