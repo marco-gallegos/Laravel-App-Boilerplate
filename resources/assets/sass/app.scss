@@ -11,6 +11,13 @@
 //mini table
 @import 'mini-table';
 
+@import "node_modules/@coreui/coreui/scss/coreui";
+
+@import 'node_modules/@coreui/icons/scss/coreui-icons';
+@import 'node_modules/flag-icon-css/css/flag-icon.min';
+@import 'node_modules/font-awesome/css/font-awesome.min';
+@import 'node_modules/simple-line-icons/css/simple-line-icons';
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);

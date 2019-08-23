@@ -9,6 +9,13 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+require('jquery');
+require('popper.js');
+require('pace');
+require('perfect-scrollbar');
+require('@coreui/coreui');
+require('chart.js');
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
